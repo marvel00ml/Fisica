@@ -1,0 +1,31 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Cinematica del punto}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduzione}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Punto materiale}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Movimenti di un corpo esteso}{2}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Cinematica}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Determinare il moto}{2}{subsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.4.1}Sistema di riferimento cartesiano}{2}{subsubsection.1.1.4.1}%
+\contentsline {subsection}{\numberline {1.1.5}Traiettoria}{3}{subsection.1.1.5}%
+\contentsline {subsection}{\numberline {1.1.6}Grandezze fondamentali}{3}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}Quiete}{3}{subsection.1.1.7}%
+\contentsline {section}{\numberline {1.2}Moto rettilineo}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Descrizione}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Rappresentazione}{3}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Velocit\`a}{3}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}Velocit\`a media}{3}{subsubsection.1.2.3.1}%
+\contentsline {subsubsection}{\numberline {1.2.3.2}Velocit\`a istantanea}{3}{subsubsection.1.2.3.2}%
+\contentsline {paragraph}{\numberline {1.2.3.2.1}Moto rettilineo uniforme}{4}{paragraph.1.2.3.2.1}%
+\contentsline {paragraph}{\numberline {1.2.3.2.2}Ottenere la velocit\`a}{4}{paragraph.1.2.3.2.2}%
+\contentsline {paragraph}{\numberline {1.2.3.2.3}Ottenere la legge oraria}{4}{paragraph.1.2.3.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.3}Relazione tra velocit\`a media e istantanea}{4}{subsubsection.1.2.3.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.4}Legge oraria del moto rettilineo uniforme}{5}{subsubsection.1.2.3.4}%
+\contentsline {subsection}{\numberline {1.2.4}Accelerazione}{5}{subsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.4.1}Accelerazione media}{5}{subsubsection.1.2.4.1}%
+\contentsline {subsubsection}{\numberline {1.2.4.2}Accelerazione istantanea}{5}{subsubsection.1.2.4.2}%
+\contentsline {subsubsection}{\numberline {1.2.4.3}Significato fisico dell'accelerazione}{5}{subsubsection.1.2.4.3}%
+\contentsline {subsubsection}{\numberline {1.2.4.4}Ottenere la velocit\`a}{5}{subsubsection.1.2.4.4}%
+\contentsline {subsubsection}{\numberline {1.2.4.5}Moto rettilineo uniformemente accelerato}{6}{subsubsection.1.2.4.5}%
+\contentsline {paragraph}{\numberline {1.2.4.5.1}Dipendenza della velocit\`a dal tempo}{6}{paragraph.1.2.4.5.1}%
+\contentsline {paragraph}{\numberline {1.2.4.5.2}Dipendenza della posizione dal tempo}{6}{paragraph.1.2.4.5.2}%

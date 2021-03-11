@@ -1,0 +1,309 @@
+\chapter{Cinematica del punto}
+
+\section{Introduzione}
+La meccanica riguarda lo studio del moto di un corpo: spiega la relazione tra le cause che lo generano e le sue caratteristiche, esprimendola con leggi quantitative.
+
+	\subsection{Punto materiale}
+	Un punto materiale o particella \`e un corpo privo di dimensioni: le sue dimensioni sono trascurabili rispetto a quelle dello spazio in cui pu\`o muoversi o degli altri corpi con cui pu\`o interagire.
+
+	\subsection{Movimenti di un corpo esteso}
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Traslazione: il corpo esteso si muove come un punto materiale.
+			\item Rotazioni.
+			\item Vibrazioni.
+		\end{itemize}
+	\end{multicols}
+
+	\subsection{Cinematica}
+	Si intende per cinematica una parte della meccanica che studia il moto senza considerare le forze che entrano in gioco.
+
+	\subsection{Determinare il moto}
+	Il moto di un punto materiale \`e determinato se \`e nota la sua posizione in funzione del tempo in un determinato sistema di riferimento.
+
+		\subsubsection{Sistema di riferimento cartesiano}
+		In un sistema di riferimento cartesiano il la posizione di un corpo \`e data dalle sue coordinate $x(t)$, $y(t)$, $z(t)$, espresse in funzione del tempo.
+		Altri sistemi di riferimento fanno uso delle coordinate polari.
+
+	\subsection{Traiettoria}
+	La traiettoria \`e il luogo dei punti occupati successivamente dal punto in movimento.
+	Costituisce una curva continua nello spazio.
+
+	\subsection{Grandezze fondamentali}
+	Nella cinematica le grandezze fondamentali sono:
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item Spazio.
+			\item Velocit\`a.
+			\item Accelerazione.
+			\item Tempo o la variabile indipendente.
+		\end{itemize}
+	\end{multicols}
+
+	\subsection{Quiete}
+	La quiete \`e un tipo di moto in cui le coordinate rimangono costanti, pertanto velocit\`a ed accelerazione sono nulle.
+
+\section{Moto rettilineo}
+
+	\subsection{Descrizione}
+	Il moto rettilineo si svolge lungo una retta su cui vengono fissati arbitrariamente un'origine e un verso.
+	Il moto del punto pu\`o essere descrivibile tramite una coordintata $x(t)$.
+
+	\subsection{Rappresentazione}
+	Le misure ottenute da un'osservazione di un moto rettilineo per tempo e spazio possono essere rappresentate in un sistema a due assi cartesiani: sulle ordinate i valori di $x$ e su quello delle ascisse il tempo $t$ corrispondente.
+	Questo viene detto diagramma orario.
+
+	\subsection{Velocit\`a}
+
+		\subsubsection{Velocit\`a media}
+		Se al tempo $t=t_1$ il punto si trova nella posizione $x=x_1$ e al tempo $t=t_2$ nella posizione $x=x_2$, $\Delta x = x_2 - x_1$ rappresenta lo spazio percorso nell'intervallo di tempo $\Delta t = t_2 - t_1$.
+		La rapidit\`a con cui avviene lo spostamento viene caratterizzata dalla velocit\`a media:
+		$$v_m = \dfrac{\Delta x}{\Delta t} = \dfrac{x_2 - x_1}{t_2 - t_1}$$
+
+		\subsubsection{Velocit\`a istantanea}
+		Per ricavare informazioni riguardo le caratteristiche del moto si pu\`o suddividere $\Delta x$ in numerosi piccoli intervalli $(\Delta x)_i$ percorsi in altrettanti piccoli intervalli di $\Delta t$ $(\Delta t)_i$.
+		Si nota come le corrispondenti velocit\`a medie sono $v_i = \frac{(\Delta x)_i}{(\Delta t)_i}$, diverse tra di loro e da $v_m$.
+		Questo avviene in quanto in un generico moto rettilineo la velocit\`a non \`e costante nel tempo.
+		Suddividendo $\Delta x$ in un numero elevatissimo di intervallini $dx$ percorsi nel tempo $dt$ si pu\`o definire la velocit\`a istantanea ad un istante $t$ del punto in movimento come:
+		$$v = \lim\limits_{\Delta t \rightarrow 0} \dfrac{\Delta x}{\Delta t} = \dfrac{dx}{dt}$$
+		La velocit\`a istantanea rappresenta pertanto la rapidit\`a di variazione temporale della posizione nell'istante $t$ considerato.
+		Il segno indica il verso del moto sull'asse.
+		Pu\`o inoltre essere espressa come funzione del tempo $v(t)$.
+
+			\paragraph{Moto rettilineo uniforme}
+			Si intende per moto rettilineo uniforme un tipo di moto rettilineo in cui la velocit\`a \`e costante.
+
+			\paragraph{Ottenere la velocit\`a}
+			Nota la legge oraria $x(t)$ si pu\`o otenere la velocit\`a istantanea con l'operazione di derivazione.
+
+			\paragraph{Ottenere la legge oraria}
+			Nota la dipendenza del tempo della velocit\`a istantanea $v(t)$ si pu\`o ottenere la legge oraria $x(t)$.
+			Supponendo che il punto si trovi in $x$ al tempo $t$ e nella posizione $x+dx$ in $t+dt$ da $v=\frac{dx}{dt}$ si nota come lo spostamento infinitesimo $dx$ \`e uguale al prodotto del tempo $dt$ impiegato a percorrerlo per il valore della velocit\`a al tempo $t:dx=v(t)dt$, qualunque sia la dipendenza della velocit\`a dal tempo.
+			Lo spostamento complessivo sulla retta su cui si muove il punto in un intervallo finito $\Delta t = t - t_0$ \`e dato dalla somma di tutti i successivi valori $dx$.
+			Si utilizza l'operazione di integrazione:
+			\begin{align*}
+				&\Delta x = \int_{x_0}^x dx = \int_{t_0}^t v(t)dt\\
+				&x - x_0 = \int_{t_0}^t v(t)dt\\
+				&x = x_0 +\int_{t_0}^tv(t)dt
+			\end{align*}
+			Si ottiene pertanto la relazione generale che permette il calcolo dello spazio percorso nel moto rettilineo:
+			$$x(t) = x_0 + \int_{t_0}^t v(t)dt$$
+			Dove $x_0$ rappresenta la posizione iniziale del punto occupata nell'istante $t_0$
+			Si noti come $\Delta x$ rappresenta la somma algebrica degli spostamenti.
+
+		\subsubsection{Relazione tra velocit\`a media e istantanea}
+		Ricordando che $v_m = \frac{x-x_0}{t-t_0}$, la relazione tra velocit\`a media e istantanea:
+		$$v_m = \dfrac{1}{t-t_0}\int_{t_0}^{t}v(t)dt$$
+
+		\subsubsection{Legge oraria del moto rettilineo uniforme}
+		Considerando il moto rettilineo uniforme in cui $v$ \`e costante si ha:
+		\begin{align*}
+			x(t) &= x_0 + v\int_{t_0}^t dt\\
+			     &=x_0 + v(t-t_0)\\
+			     &=x_0 + vt\qquad\qquad se\ t_0 = 0
+		\end{align*}
+		Si nota pertanto come nel moto rettilineo uniforme lo spazio \`e una funzione lineare del tempo e la velocit\`a istantanea coincide con la velocit\`a media.
+
+	\subsection{Accelerazione}
+	La velocit\`a $v(t)$ varia in un determinato $\Delta t$ di una quantit\`a $\delta v$.
+
+		\subsubsection{Accelerazione media}
+		Analogamente alla velocit\`a media si definisce l'accelerazione media come
+		$$a_m = \dfrac{\Delta v}{\Delta t}$$
+
+		\subsubsection{Accelerazione istantanea}
+		Si definisce accelerazione istantanea come la rapidit\`a di variazione temporale della celocit\`a come:
+		$$a = \dfrac{dv}{dt} = \dfrac{d^2 x}{dt^2}$$
+
+		\subsubsection{Significato fisico dell'accelerazione}
+		\begin{multicols}{2}
+			\begin{itemize}
+				\item $a=0$: velocit\`a costante, moto rettilineo uniforme.
+				\item $a>0$: la velocit\`a cresce nel tempo.
+				\item $a<0$: la velocit\`a decresce nel tempo.
+			\end{itemize}
+		\end{multicols}
+
+		\subsubsection{Ottenere la velocit\`a}
+		Data una $a(t)$ si ricava $v(t)$:
+		\begin{align*}
+			dv &=a(t)dt\\
+			\Delta v &= \int_{v_0}^v dv\\
+			   &=\int_{t_0}^t a(t)dt\\
+		\end{align*}
+		Pertanto:
+		$$v(t) = v_0 + \int_{t_0}^t a(t)dt$$
+
+		\subsubsection{Moto rettilineo uniformemente accelerato}
+		Si intende per moto rettilineo uniformemente accelerato un moto in cui l'accelerazione \`e costante durante il moto.
+
+			\paragraph{Dipendenza della velocit\`a dal tempo}
+			La dipendenza della velocit\`a dal tempo \`e lineare:
+			\begin{align*}
+				v(t) &=v_0+a(t-t_0)\\
+				v(t) &=v_0+at\qquad\qquad se\ t_0 = 0
+			\end{align*}
+
+			\paragraph{Dipendenza della posizione dal tempo}
+			Lo spazio \`e una funzione quadratica del tempo:
+			\begin{align*}
+				x(t) &= x_0 +\int_{t_0}^t [v_0 + a(t-t_0)]dt\\
+				     &= x_0 + \int_{t_0}^t v_0dt + \int_{t_0}^t a(t-t_0)dt\\
+				x(t) &= x_0 + v(t-t_0) +\dfrac{1}{2}a(t-t_0)^2\\
+				     &= x_0 + v_0t +\dfrac{1}{2}at^2\qquad\qquad se\ t_0 = 0
+			\end{align*}
+
+			\paragraph{Dipendenza dell'accelerazione dalla posizione}
+			Nota la dipendenza dell'accelerazione dalla posizione, ovvero $a(x)$ si pu\`o ricavare il valore della velocit\`a in ogni posizione $x$ o $v(x)$.
+			Questo avviene considerando le funzioni di funzione.
+			Se ad un istante $t$ il punto occupa una posizione $x$ con velocit\`a $v$ e accelerazione $a$ si possono pensare come funzioni della posizione e
+			$$v(t) = v[x(t)]$$
+			$$a(t) = a[x(t)]$$
+			Derivando la prima rispetto al tempo e sfruttando la regola di derivazione delle funzioni di funzioni:
+			\begin{align*}
+				a[x(t)] &= \dfrac{d}{dt}v[x(t)]\\
+				        &= \dfrac{d}{dt}\dfrac{d}{dt}\dfrac{dv}{dx}\dfrac{dx}{dt}\\
+					&= \dfrac{dv}{dx}\dfrac{dx}{dt}\\
+				a  	&= \dfrac{dv}{dx}
+				adx &= vdv
+			\end{align*}
+			Ovvero se dalla posizione $x$ dove un punto possiede una velocit\`a $v$ e un'accelerazione $a$ si ha uno spostamento $dx$, allora il punto subisce una variazione di velocit\`a $dv$.
+			Integrando:
+			\begin{align*}
+				\int_{t_0}^t a(x)dx &= \int_{v_0}^{v} vdv\\
+					       &= \dfrac{1}{2}v^2 -\dfrac{1}{2}v_0^2
+			\end{align*}
+			Dove $v_0$ \`e la velocit\`a in $x_0$.
+			Questo permette il calcolo della variazione di velocit\`a nel passaggio dalla posizione $x_0$ a $x$.
+
+				\subparagraph{Moto uniformemente accelerato}
+				Nel moto uniformemente accelerato:
+				$$v_2 = v_0^2 + 2a(x-x_0)$$
+
+	\subsection{Moto verticale di un corpo}
+	Trascurando l'attrito con l'aria un corpo lasciato libero di cadere in vicinanza della superficie terrestre si move verso il basso con una accelerazione costante $g=9.8\frac{m}{s^2}$.
+	Il moto \`e pertanto rettilineo uniformemente accelerato.
+
+		\subsubsection{Sistema di riferimento}
+		Il sistema di riferimento ha origine al suolo e l'asse delle $x$ rivolto verso l'alto.
+		In questo sistema pertanto $a=-g=-9.8\frac{m}{s^2}$.
+
+		\subsubsection{Caduta da un'altezza con velocit\`a iniziale nulla}
+		Nel caso della caduta da un'altezza $h$ con velocit\`a iniziale nulla si nota come inizialmente:
+		\begin{multicols}{3}
+			\begin{itemize}
+				\item $x_0 = h$.
+				\item $v_0 = 0$.
+				\item $t = t_0 = 0$.
+			\end{itemize}
+		\end{multicols}
+
+			\paragraph{Velocit\`a}
+			Dalla dipendenza della velocit\`a dal tempo nel moto uniformemente accelerato si ottiene:
+			$$v(t) = -gt$$
+			E si nota come la velocit\`a aumenta in modulo durante la caduta.
+
+			\paragraph{Posizione}
+			Osservando la dipendenza della posizione dal tempo nel moto uniformemente accelerato si ottiene:
+			$$x = h -\frac{1}{2}gt^2$$
+
+			\paragraph{Tempo di arrivo al suolo}
+			Il tempo di arrivo al suolo, dove $x=0$ \`e:
+			$$t = \sqrt{\dfrac{2h}{g}}$$
+
+			\paragraph{Velocit\`a in funzione della posizione}
+			Notando la velocit\`a in funzione della posizione nel moto uniformemente accelerato si ottiene:
+			$$v^2=2g(h-x)$$
+
+			\paragraph{Velocit\`a di arrivo al suolo}
+			Il corpo arriva al suolo con una velocit\`a:
+			$$v=\sqrt{2gh}$$
+
+		\subsubsection{Caduta da un'altezza con velocit\`a iniziale non nulla}
+		Nel caso della caduta da un'altezza $h$ con velocit\`a iniziale non nulla si nota come inizialmente:
+		\begin{multicols}{3}
+			\begin{itemize}
+				\item $x_0=h$.
+				\item $v_0=v_i$.
+				\item $t=t_0=0$.
+			\end{itemize}
+		\end{multicols}
+
+			\paragraph{Dipendenza della velocit\`a dal tempo}
+			$$v(t) = -v_i -gt$$
+
+			\paragraph{Legge oraria}
+			$$x=h-v_it-\dfrac{1}{2}gt^2$$
+
+			\paragraph{Dipendenza della velocit\`a dalla posizione}
+			$$t(x) = \dfrac{-v_i+\sqrt{v_i^2+2g(h-x)}}{g}$$
+
+			\paragraph{Tempo di caduta}
+			$$t_c = \dfrac{-v_i+\sqrt{v_i^2+2gh}}{g}$$
+
+			\paragraph{Velocit\`a di caduta}
+			$$v_c^2=v)i^2+2gh$$
+
+		\subsubsection{Lancio del punto verso l'alto partendo dal suolo}
+		Nel caso di un lancio del punto verso l'alto si nota come inizialmente:
+		\begin{multicols}{3}
+			\begin{itemize}
+				\item $x_0=0$.
+				\item $v_0 = v_2 > 0$.
+				\item $t=t_0=0$.
+			\end{itemize}
+		\end{multicols}
+
+			\paragraph{Velocit\`a}
+			$$v=v_2 - gt$$
+
+			\paragraph{Legge oraria}
+
+
+
+
+
+
+
+
+
+
+
+% Cinematica, descrizione movimento dei corpi.
+% Il movimento \`e la successione di diverse posizioni nel tempo.
+% Le posizioni nel tempo sono la traiettoria, successioni delle posizioni occupate dal corpo.
+% Posizione, si introduce il sistema di riferimento (questo caso, piano), sistema di assi cartesiani i quali consentono di definire la posizione di un punto sulla base delle coordinate che il punto traccia sugli assi identificandolo univocamente.
+
+% \section{Moto unidimensionale}
+% Oggetti vincolati a muoversi in un unica direzione, lungo unicamente l'asse delle $x$.
+% L'asse pu\`o non essere rettilineo, \`e unicamente uno strumento matematico di rappresentazione.
+% Si definisce coordinata di $A$ in un certo momento come $x_A$, il valore che la posizione rappresentata sull'asse ha in un dato tempo.
+% Si definisce spostamento, o distanza $\Delta x$ in una dimensione $\Delta x = x_B-x_A$, si chiama anche intervallo spaziale.
+% Al tempo posizione,
+% Al tempo si associa l'asse dei tempi, l'inizio \`e arbitrario e consente  di assegnare un valore reale agli istanti fisici di tempo.
+% La posizione $A$ con coordinata $x_A$ si associa a un istante $t_A$.
+% Si nota una corrispondenza tra coordinata e istante, che rappresenta la fisica del movimento del corpo.
+% Un corpo infatti passa dalla posizione, il luogo esatto dove si trova fisicamente il corpo, si sposta verso $B$ con un certo percorso, rappresentabile su $x$.
+% Con un orologio consente ad ogni posizione si pu\`o associare un tempo.
+% Rappresentando insieme $t$ e $x$ si pu\`o rappresentare $A$ e $B$ e tutto il moto in mezzo viene rappresentato come una sequenza di punti nel piano $(t,x)$, in questo caso la sequenza di punti \`e la descrizione matematica della successione di posizioni e tempi che corrispondono alla traettoria.
+
+% \section{Cinematica}
+% Si ha da $(t,x)\rightarrow (t,x(t))$, lo spazio \`e funzione del tempo.
+
+% 	\subsection{Moti particolari}
+
+% 		\subsubsection{Moto rettilineo regolare}
+% 		Moto da $A$ arriva a $B$ con traiettoria rettilinea.
+% 		Il corpo percorre spazi uguali in tempi uguali: inserire formula con $\Delta t \leftrightarrox \Delta x$.
+% 		A $\Delta t$ uguali corrispondono $\Delta x$ uguali.
+% 		$\dfrac{\Delta x}{\Delta t}$ \`e costante nel tempo,
+% 		$$\dfrac{\Delta x_0}{\Delta t_0} = \dfrac{\Delta x_{1}{\Delta t_1} =  \text{velocit\`a}$$
+% 		Quella \`e la velocit\`a media e per questo caso la velocit\`a istantanea in quanto indipendentemente dalla distanza delle misurazioni si trova lo stesso valore.
+% 		$[\Delta x] = [x] = [L]$ $[\Delta t] = [t] = [T]$, grandezza fisica $[v] = \cdots = [\dfrac{L}{T}] = [L\cdot T^{-1}]$.
+% 		L'unit\`a di misura di $\Delta x$, la misura \`e il rapporto tra una data grandezza e una grandezza di riferimento detta unit\`a di misura.
+% 		L'unit\`a di misura si ricava in modo analogo rispetto all'analisi dimensionale.
+% 		Intervallo di tempo infinitesimo:
+% 		Si assume sempre $x(t)$ continua e si assume derivabile.
+
+% 	\subsection{Velocit\`a istantanea}
+% 	$$v_i = \lim\limits_{\Delta t \rightarrow 0} \dfrac{\Delta x}{\Delta t}=\dfrac{dx}{dt} = x'(t) $$
