@@ -29,3 +29,40 @@
 \contentsline {subsubsection}{\numberline {1.2.4.5}Moto rettilineo uniformemente accelerato}{6}{subsubsection.1.2.4.5}%
 \contentsline {paragraph}{\numberline {1.2.4.5.1}Dipendenza della velocit\`a dal tempo}{6}{paragraph.1.2.4.5.1}%
 \contentsline {paragraph}{\numberline {1.2.4.5.2}Dipendenza della posizione dal tempo}{6}{paragraph.1.2.4.5.2}%
+\contentsline {paragraph}{\numberline {1.2.4.5.3}Dipendenza dell'accelerazione dalla posizione}{6}{paragraph.1.2.4.5.3}%
+\contentsline {subparagraph}{\numberline {1.2.4.5.3.1}Moto uniformemente accelerato}{7}{subparagraph.1.2.4.5.3.1}%
+\contentsline {subsection}{\numberline {1.2.5}Moto verticale di un corpo}{7}{subsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.5.1}Sistema di riferimento}{7}{subsubsection.1.2.5.1}%
+\contentsline {subsubsection}{\numberline {1.2.5.2}Caduta da un'altezza con velocit\`a iniziale nulla}{7}{subsubsection.1.2.5.2}%
+\contentsline {paragraph}{\numberline {1.2.5.2.1}Velocit\`a}{7}{paragraph.1.2.5.2.1}%
+\contentsline {paragraph}{\numberline {1.2.5.2.2}Posizione}{7}{paragraph.1.2.5.2.2}%
+\contentsline {paragraph}{\numberline {1.2.5.2.3}Tempo di arrivo al suolo}{7}{paragraph.1.2.5.2.3}%
+\contentsline {paragraph}{\numberline {1.2.5.2.4}Velocit\`a in funzione della posizione}{7}{paragraph.1.2.5.2.4}%
+\contentsline {paragraph}{\numberline {1.2.5.2.5}Velocit\`a di arrivo al suolo}{7}{paragraph.1.2.5.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.5.3}Caduta da un'altezza con velocit\`a iniziale non nulla}{7}{subsubsection.1.2.5.3}%
+\contentsline {paragraph}{\numberline {1.2.5.3.1}Dipendenza della velocit\`a dal tempo}{8}{paragraph.1.2.5.3.1}%
+\contentsline {paragraph}{\numberline {1.2.5.3.2}Legge oraria}{8}{paragraph.1.2.5.3.2}%
+\contentsline {paragraph}{\numberline {1.2.5.3.3}Dipendenza della velocit\`a dalla posizione}{8}{paragraph.1.2.5.3.3}%
+\contentsline {paragraph}{\numberline {1.2.5.3.4}Tempo di caduta}{8}{paragraph.1.2.5.3.4}%
+\contentsline {paragraph}{\numberline {1.2.5.3.5}Velocit\`a di caduta}{8}{paragraph.1.2.5.3.5}%
+\contentsline {subsubsection}{\numberline {1.2.5.4}Lancio del punto verso l'alto partendo dal suolo}{8}{subsubsection.1.2.5.4}%
+\contentsline {paragraph}{\numberline {1.2.5.4.1}Velocit\`a}{8}{paragraph.1.2.5.4.1}%
+\contentsline {paragraph}{\numberline {1.2.5.4.2}Legge oraria}{8}{paragraph.1.2.5.4.2}%
+\contentsline {paragraph}{\numberline {1.2.5.4.3}Punto pi\`u alto}{8}{paragraph.1.2.5.4.3}%
+\contentsline {paragraph}{\numberline {1.2.5.4.4}Discesa}{9}{paragraph.1.2.5.4.4}%
+\contentsline {subsection}{\numberline {1.2.6}Moto armonico semplice}{9}{subsection.1.2.6}%
+\contentsline {subsubsection}{\numberline {1.2.6.1}Caratteristiche}{9}{subsubsection.1.2.6.1}%
+\contentsline {subsubsection}{\numberline {1.2.6.2}Periodicit\`a}{9}{subsubsection.1.2.6.2}%
+\contentsline {subsubsection}{\numberline {1.2.6.3}Determinare il periodo}{9}{subsubsection.1.2.6.3}%
+\contentsline {paragraph}{\numberline {1.2.6.3.1}Significato di $\omega $}{10}{paragraph.1.2.6.3.1}%
+\contentsline {paragraph}{\numberline {1.2.6.3.2}Frequenza del moto}{10}{paragraph.1.2.6.3.2}%
+\contentsline {paragraph}{\numberline {1.2.6.3.3}Classi di moti armonici}{10}{paragraph.1.2.6.3.3}%
+\contentsline {subsubsection}{\numberline {1.2.6.4}Velocit\`a}{10}{subsubsection.1.2.6.4}%
+\contentsline {subsubsection}{\numberline {1.2.6.5}Accelerazione}{10}{subsubsection.1.2.6.5}%
+\contentsline {subsubsection}{\numberline {1.2.6.6}Condizioni iniziali}{11}{subsubsection.1.2.6.6}%
+\contentsline {subsubsection}{\numberline {1.2.6.7}Dipendenza della velocit\`a dalla posizione}{11}{subsubsection.1.2.6.7}%
+\contentsline {subsubsection}{\numberline {1.2.6.8}Condizione sufficiente per un moto armonico semplice}{11}{subsubsection.1.2.6.8}%
+\contentsline {paragraph}{\numberline {1.2.6.8.1}Moto con funzione coseno}{12}{paragraph.1.2.6.8.1}%
+\contentsline {subsubsection}{\numberline {1.2.6.9}Oscillazione}{12}{subsubsection.1.2.6.9}%
+\contentsline {subsection}{\numberline {1.2.7}Moto rettilineo smorzato esponenzialmente}{12}{subsection.1.2.7}%
+\contentsline {subsubsection}{\numberline {1.2.7.1}Cambio della velocit\`a con la posizione}{12}{subsubsection.1.2.7.1}%

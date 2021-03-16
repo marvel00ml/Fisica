@@ -258,52 +258,147 @@ La meccanica riguarda lo studio del moto di un corpo: spiega la relazione tra le
 			$$v=v_2 - gt$$
 
 			\paragraph{Legge oraria}
+			$$x = v_2t-\dfrac{1}{2}gt^2$$
 
+			\paragraph{Punto pi\`u alto}
+			Il punto raggiunge la posizione pi\`u alta al tempo:
+			$$t_M = \dfrac{v_2}{g}$$
+			E nella posizione:
+			$$x_M=x(t_M)=\dfrac{v_2^2}{2g}$$
 
+			\paragraph{Discesa}
+			Per $t\ge t_M$ si \`e nella situazione del primo esempio: punto che cade da un'altezza $x_M$ con velocit\`a iniziale nulla.
+			Pertanto:
+			$$t_s = \sqrt{2x_M}{g}=t_M$$
+			E la durata complessiva del moto \`e pertanto:
+			$$2t_M = \dfrac{2v_2}{g}$$
+			Ricavando $t(x)$ dalla legge oraria e da $v(x)$ si ha:
+			\begin{align*}
+				t(x) &= \dfrac{v_2\pm \sqrt{v_2^2 - 2gx}}{g}\\
+				     &= t_M \pm \sqrt{t_M^2 - \dfrac{2x}{g}}\\
+				v(x) &= \pm \sqrt{v_2^2 - 2gx}
+			\end{align*}
 
+	\subsection{Moto armonico semplice}
+	IL moto armonico semplice lungo un asse rettilineo \`e un moto vario la cui legge oraria \`e data dalla relazione:
+	$$x(t) = A \sin(\omega t + \phi)$$
+	Dove:
+	\begin{multicols}{2}
+		\begin{itemize}
+			\item $A$ ampiezza del moto.
+			\item $\omega t + \phi$ fase del moto.
+			\item $\omega$ pulsazione.
+			\item $\phi$ fase iniziale.
+		\end{itemize}
+	\end{multicols}
 
+		\subsubsection{Caratteristiche}
+		Essendo i valori estremi della funzione seno $+1$ e $-1$ il punto percorre un segmento di ampiezza $2A$ con centro nell'origine, con uno spostamento massimo da essa $A$.
+		Al tempo $t=0$ occupa $x(0)=A\sin\phi$.
+		Date le costanti $A$ e $\phi$ si determina la posizione iniziale del punto, che si trova a $t=0$ nell'origine solo se $\phi=\{0, \pi\}$.
 
+		\subsubsection{Periodicit\`a}
+		Essendo la funzione seno periodica con periodo $2\pi$ il moto risulta periodico e descrive oscillazioni di ampiezza $A$ rispetto al centro $O$ uguali tra loro e caratterizzate da una durata $T$ periodo del moto armonico.
+		Si dice pertanto periodico un moto in cui intervalli di tempo uguali il punto ripassa nella stessa posizione con la stessa velocit\`a.
 
+		\subsubsection{Determinare il periodo}
+		Per determinare il periodo $T$ si considerino due tempi $t$ e $t'$ tali che $t'-t = T$.
+		Per definizione $x(t')=x(t)$, pertanto dalla legge oraria le fasi nei due istanti devono differire $2\pi$.
+		Si ha pertanto $\omega t' +\phi = \omega t + \phi + 2\pi$, ne segue che:
+		\begin{align*}
+			T &= \dfrac{2\pi}{\omega}\\
+			\omega &=\dfrac{2\pi}{T}
+		\end{align*}
 
+			\paragraph{Significato di $\omega$}
+			SI nota pertanco come il moto si ripete velocemente quando la pulsazione \`e grande mentre il moto \`e lento per vassi valori della pulsazione.
 
+			\paragraph{Frequenza del moto}
+			Si definisce frequenza $v$ del moto il numero di oscillazioni in un secondo:
+			\begin{align*}
+				v &= \dfrac{1}{T}\\
+				  &= \dfrac{\omega}{2\pi}\\
+				\omega &= 2\pi v
+			\end{align*}
+			Si noti come il periodo e la frequenza di un moto armonico sono indipendenti dall'ampiezza del moto.
 
+			\paragraph{Classi di moti armonici}
+			Fissato il valore della pulsazione si ottiene una classe di moti armonici caratterizzata dallo stesso periodo che differiscono tra loro per i diversi valori dell'ampiezza e della fase iniziale, ovvero per le condizioni iniziali.
 
+		\subsubsection{Velocit\`a}
+		La velocit\`a del punto che si muove con moto armonico si ottiene derivando $x(t)$.
+		\begin{align*}
+			\dot{x} &= v(t) = \dfrac{dx}{dt}\\
+			  &=\omega A \cos(\omega t+\phi)\\
+		\end{align*}
+		La velocit\`a assume il valore massimo nel centro di oscillazione dove vale $\omega A$ e si annulla agli estremi dove si inverte il senso del moto.
 
-% Cinematica, descrizione movimento dei corpi.
-% Il movimento \`e la successione di diverse posizioni nel tempo.
-% Le posizioni nel tempo sono la traiettoria, successioni delle posizioni occupate dal corpo.
-% Posizione, si introduce il sistema di riferimento (questo caso, piano), sistema di assi cartesiani i quali consentono di definire la posizione di un punto sulla base delle coordinate che il punto traccia sugli assi identificandolo univocamente.
+		\subsubsection{Accelerazione}
+		L'accelerazione del punto che si muove con moto armonico si ottiene derivando $v(t)$.
+		\begin{align*}
+			\ddot{x} &= a(t) = \dfrac{dv}{dt} = \dfrac{d^2x}{dt^2}\\
+			       &= -\omega^2 A \sin(\omega t + \phi)\\
+			       &= -\omega^2 x
+		\end{align*}
+		L'accelerazione si annulla nel centro di oscillazione e assume il valore in modulo massimo $\omega^2 A$ agli estremi, dove si inverte la velocit\`a.
+		Si nota inoltre come sia proposizionale e d opposta allo spostamento dal centro di oscillazione.
+		A parte il valore dell'ampiezza le tre funzioni mostrano lo stesso andamento temporale, si nota unicamente uno spostamento di una rispetto all'altra lungo l'asse dei tempi.
+		Si nota pertanto come la velocit\`a sia sfasata di $\frac{\pi}{2}$  rispetto allo spostamento o si trova in quadratura di fase, mentre l'accelerazoine \`e sfasata di $\pi$ rispetto allo spostamento o si trova in opposizione di fase.
 
-% \section{Moto unidimensionale}
-% Oggetti vincolati a muoversi in un unica direzione, lungo unicamente l'asse delle $x$.
-% L'asse pu\`o non essere rettilineo, \`e unicamente uno strumento matematico di rappresentazione.
-% Si definisce coordinata di $A$ in un certo momento come $x_A$, il valore che la posizione rappresentata sull'asse ha in un dato tempo.
-% Si definisce spostamento, o distanza $\Delta x$ in una dimensione $\Delta x = x_B-x_A$, si chiama anche intervallo spaziale.
-% Al tempo posizione,
-% Al tempo si associa l'asse dei tempi, l'inizio \`e arbitrario e consente  di assegnare un valore reale agli istanti fisici di tempo.
-% La posizione $A$ con coordinata $x_A$ si associa a un istante $t_A$.
-% Si nota una corrispondenza tra coordinata e istante, che rappresenta la fisica del movimento del corpo.
-% Un corpo infatti passa dalla posizione, il luogo esatto dove si trova fisicamente il corpo, si sposta verso $B$ con un certo percorso, rappresentabile su $x$.
-% Con un orologio consente ad ogni posizione si pu\`o associare un tempo.
-% Rappresentando insieme $t$ e $x$ si pu\`o rappresentare $A$ e $B$ e tutto il moto in mezzo viene rappresentato come una sequenza di punti nel piano $(t,x)$, in questo caso la sequenza di punti \`e la descrizione matematica della successione di posizioni e tempi che corrispondono alla traettoria.
+		\subsubsection{Condizioni iniziali}
+		Le costanti $A$ e $\phi$ identificano le condizioni iniziali:
+		$$ x(0) = x_0 = A \sin\phi$$
+		$$v(0) = v_0 = \omega A \cos\phi$$
+		Note le condizioni iniziali $x_0$ e $v_0$ si calcolano $A$ e $\phi$ come:
+		$$\tan \phi = \dfrac{\omega x_0}{v_0}$$
+		$$A^2 = x_0^2 + \dfrac{v_0^2+}{\omega^2}$$
 
-% \section{Cinematica}
-% Si ha da $(t,x)\rightarrow (t,x(t))$, lo spazio \`e funzione del tempo.
+		\subsubsection{Dipendenza della velocit\`a dalla posizione}
+		\begin{align*}
+			v(x) &= \int_{x_o}^x a(x)dx\\
+			     &=-\omega^2\int_{x_0}^x xdx\\
+			     &=\dfrac{1}{2}\omega^2(x_x^2-x^2)\\
+			     &=\dfrac{1}{2}v^2 - \dfrac{1}{2}v_0^2
+		\end{align*}
+		Pertanto
+		$$v^2 = v_0^2 + \omega^2(x_0^2(x_0^2-x^2)$$
+		Con riferimento al centro dove $x_0 = 0$ e $v_0 = \omega A$
+		$$v^2(x)=\omega^2(A^2 - x^2)$$
+		Il segno di $v$ dipende dal verso di passaggio.
+		Si nota pertanto come l'accelerazione \`e proporzionale allo spostamento con segno negativo $a =-\omega^2 x$.
 
-% 	\subsection{Moti particolari}
+		\subsubsection{Condizione sufficiente per un moto armonico semplice}
+		Se si trova che in un moto l'accelerazione \`e proporzionale allo spostamento con costante di proporzionalit\`a negativa si dimostra che quel moto \`e armonico semplice.
+		La condizione necessaria e sufficiente affinch\`e un moto sia armonico \`e:
+		$$\dfrac{d^2x}{dt^2}+\omega^2x=0$$
+		O equazione differenziale del moto armonico.
+		Le funzioni seno e coseno e le loro combinazioni lineari sono tutte e sole le funzioni che soddisfano la condizione nel campo reale.
 
-% 		\subsubsection{Moto rettilineo regolare}
-% 		Moto da $A$ arriva a $B$ con traiettoria rettilinea.
-% 		Il corpo percorre spazi uguali in tempi uguali: inserire formula con $\Delta t \leftrightarrox \Delta x$.
-% 		A $\Delta t$ uguali corrispondono $\Delta x$ uguali.
-% 		$\dfrac{\Delta x}{\Delta t}$ \`e costante nel tempo,
-% 		$$\dfrac{\Delta x_0}{\Delta t_0} = \dfrac{\Delta x_{1}{\Delta t_1} =  \text{velocit\`a}$$
-% 		Quella \`e la velocit\`a media e per questo caso la velocit\`a istantanea in quanto indipendentemente dalla distanza delle misurazioni si trova lo stesso valore.
-% 		$[\Delta x] = [x] = [L]$ $[\Delta t] = [t] = [T]$, grandezza fisica $[v] = \cdots = [\dfrac{L}{T}] = [L\cdot T^{-1}]$.
-% 		L'unit\`a di misura di $\Delta x$, la misura \`e il rapporto tra una data grandezza e una grandezza di riferimento detta unit\`a di misura.
-% 		L'unit\`a di misura si ricava in modo analogo rispetto all'analisi dimensionale.
-% 		Intervallo di tempo infinitesimo:
-% 		Si assume sempre $x(t)$ continua e si assume derivabile.
+			\paragraph{Moto con funzione coseno}
+			Queste considerazioni portano a considerare una legge del moto che utilizzi la funzione coseno.
+			Si noti come le due funzioni differiscono per un termine di sfasamento $\frac{\pi}{2}$.
+			Ovvero $x=A\sin(\omega t+\phi)$ e $x = A\cos(\omega t+\phi)$ rappresentano lo stesso moto, solo che il primo \`e visto a partire dall'istante $t_0$, mentre il secondo dall'istante $t_0 + \dfrac{T}{4}$.
 
-% 	\subsection{Velocit\`a istantanea}
-% 	$$v_i = \lim\limits_{\Delta t \rightarrow 0} \dfrac{\Delta x}{\Delta t}=\dfrac{dx}{dt} = x'(t) $$
+		\subsubsection{Oscillazione}
+		Se in un diverso fenomeno fisico si trova una grandezza $f$ che obbedisce a
+		$$\dfrac{d^2f}{dz^2}+k^2f=0$$
+		La soluzione \`e sempre:
+		$$f(z)=A\sin(kz+\phi)$$
+		Ovvero $f$ descrive un'oscillazione rispetto a $z$ il cui periodo dipende da $k$.
+
+	\subsection{Moto rettilineo smorzato esponenzialmente}
+	Si consideri ora un altro moto vario in cui l'accelerazione soddisfa la condizione $a = -kv$, con $k$ costante positiva.
+	L'accelerazione \`e sempre contraria alla velocit\`a che deve necessariamente diminuire e varia ocn la stessa legge con cui varia la velocit\`a, ovvero:
+	$$\dfrac{dv}{dt} = -kv$$
+	Integrando con il metodo della separazione delle variabili:
+	\begin{align*}
+		&\dfrac{dv}{v} = -kdt\\
+		\Rightarrow&\int_{v_0}^v\dfrac{dv}{v} = -k\int_0^t\\
+		\Rightarrow &\log\dfrac{v}{v_0} = -kt
+	\end{align*}
+	Dove $v_0$ \`e la velocit\`a in $t=0$ e $v_0\neq 0$.
+	Passando alle esponenziali:
+	$$v(t) = v_0e^{-kt}$$
+	La velocit\`a decresce esponenzialmente nel tempo e il punto alla fine si ferma.
+
+		\subsubsection{Cambio della velocit\`a con la posizione}

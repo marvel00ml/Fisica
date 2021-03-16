@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  10 MAR 2021 11:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.3.3)  16 MAR 2021 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Principal.tex
-(./Principal.tex
+**/home/giacomo/Universita/Fisica/Beautified/Principal
+(/home/giacomo/Universita/Fisica/Beautified/Principal.tex
 LaTeX2e <2020-10-01> patch level 2
 L3 programming layer <2020-12-03> xparse <2020-03-03> (./prefix.tex
 (/usr/share/texmf-dist/tex/latex/base/book.cls
@@ -638,7 +638,8 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box117
 \@float@everytoks=\toks30
 \@floatcapt=\box118
-)) (./build/Principal.aux)
+))
+(/home/giacomo/Universita/Fisica/Beautified/build/Principal.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
@@ -709,7 +710,8 @@ LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
 
-(./build/Principal.out) (./build/Principal.out)
+(/home/giacomo/Universita/Fisica/Beautified/build/Principal.out)
+(/home/giacomo/Universita/Fisica/Beautified/build/Principal.out)
 \@outlinefile=\write3
 
 (/usr/share/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
@@ -758,7 +760,8 @@ Package chemgreek Info: Activating mapping `default' on line 9.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./build/Principal.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+(/home/giacomo/Universita/Fisica/Beautified/build/Principal.toc)
 \tf@toc=\write4
 
 (./Chapters/01_Introduzione.texpdfTeX warning (ext4): destination with the same
@@ -772,20 +775,21 @@ l.1 \chapter
 Capitolo 1.
 [2
 
-] [3] [4] [5]) [6] (./build/Principal.aux)
+] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12]
+(/home/giacomo/Universita/Fisica/Beautified/build/Principal.aux)
 Package rerunfilecheck Info: File `Principal.out' has not changed.
-(rerunfilecheck)             Checksum: 711E652B260054605D5F258CD5AAC76D;924.
+(rerunfilecheck)             Checksum: 3CF5EAE182B2BB6222AB87D474F01483;1175.
  ) 
 Here is how much of TeX's memory you used:
- 15986 strings out of 479383
- 279121 string characters out of 5875831
- 642648 words of memory out of 5000000
- 32803 multiletter control sequences out of 15000+600000
+ 16033 strings out of 479383
+ 280601 string characters out of 5875831
+ 647642 words of memory out of 5000000
+ 32806 multiletter control sequences out of 15000+600000
  419701 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,87p,388b,763s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/t
-exmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf-dist/font
+ 84i,12n,87p,427b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/
+texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/
@@ -800,10 +804,11 @@ er/sfbx2074.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb
 ></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/share/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/
 type1/public/cm-super/sfrm1200.pfb>
-Output written on ./build/Principal.pdf (7 pages, 205396 bytes).
+Output written on /home/giacomo/Universita/Fisica/Beautified/build/Principal.pd
+f (13 pages, 238329 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 257 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 137 words of extra memory for PDF output out of 10000 (max. 10000000)
 
