@@ -402,3 +402,350 @@ La meccanica riguarda lo studio del moto di un corpo: spiega la relazione tra le
 	La velocit\`a decresce esponenzialmente nel tempo e il punto alla fine si ferma.
 
 		\subsubsection{Cambio della velocit\`a con la posizione}
+		\begin{align*}
+			&a = \dfrac{dv}{dt}=\dfrac{dv}{dx}\dfrac{dx}{dt}=\dfrac{dv}{dx}v = -kv\Rightarrow\\
+			&\Rightarrow \dfrac{dv}{dx}=-k\Rightarrow\\
+			&\Rightarrow dv = -kdx\Rightarrow\\
+			&\Rightarrow \int_{v_0}^v dv = -k \int_0^xdx\\
+		\end{align*}
+		Risulta pertanto un andamento lineare decrescente
+		$$v(x)=v_0-kx$$
+		La velocit\`a si annulla in:
+		$$x=\dfrac{v_0}{k}$$
+		Dove il punto si ferma.
+
+		\subsubsection{Legge oraria}
+		La legge oraria si ricava per integrazione da $v(t)$:
+		\begin{align*}
+			x(t)&=x_0+\int_0^t v(t)dt=\\
+			    &=\int_0^tv_0e^{-kt}dt=\\
+					&=-\dfrac{v_0}{k}[e^{-kt}]_0^t=\\
+					&=\dfrac{v_0}{k}(1-e^kt)
+		\end{align*}
+
+		\subsubsection{Costante di tempo}
+		Si definisce costante di tempo:
+		$$\tau = \dfrac{1}{k}$$
+		In un intervallo di tempo pari a $\tau$ la funzione si riduce di un fattore di $e$.
+		Minore il valore di $\tau$ pi\`u rapida la decrescita.
+
+\section{Moto nel piano}
+Nel caso in cui il moto sia vincolato a svolgersi su un piano la traiettoria del punto $P$ \`e in generale una linea curva.
+Occorre pertanto specificare oltre al valore numerico dello spostamento la sua direzione e il verso.
+Queste grandezze con caratteristiche direzionali e numeriche si dicono vettori.
+Anche la velocit\`a e l'accelerazione del moto piano sono grandezze vettoriale, caratteristica vera per qualsiasi moto in $n$ dimensioni.
+
+	\subsection{Posizione}
+	La posizione del punto viene identificata da due coordinate che possono essere con riferimento ad un sistema di assi cartesiani ortogonali $x(t)$ e $y(t)$, o in termini di coordinate polari $r(t)$ e $\theta(t)$.
+
+		\subsubsection{Relazione tra coordinate cartesiane e polari}
+		Le relazioni tra coordinate cartesiane e polari sono:
+		\begin{align*}
+			x = r\cos\theta,\qquad&y=r\sin\theta\\
+			r=\sqrt{x^2+y^2},\quad &\tan\theta=\dfrac{y}{x}\\
+		\end{align*}
+
+		\subsubsection{Identificare la posizione attravreso il raggio vettore}
+		Si intende per raggio vettore del punti $P$:
+		$$r(t)=OP=x(t)u_x+y(t)u_y$$
+		Dove $u_x$ e $u_y$ rappresentano i versori degli assi cartesiani fissi nel tempo.
+		Nota la dipendenza dal tempo di $r$ \`e individuato il moto di $P$.
+
+		\subsubsection{Coordinata curvilinea}
+		La posizione del punto lungo la traettoria pu\`o essere data da una coordinata curvilinea $s$ misurata a partire da un'origine arbitraria.
+		Il valore di $s$ esprime la lunghezza della traiettoria e varia nel tempo dirante il moto: $\frac{ds}{dt}$ indica la variazione temporale della posizione lungo la traiettoria o la velocit\`a istantanea del punto, come definita nel moto rettilineo.
+
+	\subsection{Velocit\`a vettoriale}
+	Data la forma della traiettoria e la velocit\`a in cui viene percorsa si fornisce una descrizione completa del moto che pu\`o essere riassunta nella velocit\`a vettoriale.
+	Considerando due posizioni occupate dal punto $P$ al tempo $t$ e al tempo $t+\Delta t$, queste sono individuate dai vettori $r(t)$ e $t(t+\Delta t)=r(t)+\Delta r$.
+	Costruendo il rapporto incrementale:
+	$$\dfrac{r(t+\Delta t)-r(t)}{\Delta t}=\dfrac{\delta r}{\Delta t}$$
+	Si definisce la velocit\`a vettoriale:
+	$$v=\lim\limits_{\Delta t\rightarrow 0}\dfrac{\Delta r}{\Delta t}=\dfrac{dr}{dt}$$
+	Si nota pertanto come la velocit\`a vettoriale \`e la derivata del raggio vettore rispetto al tempo.
+	Si pu\`o inoltre descrivere:
+	$$dr=dsu_T$$
+	In quanto l'incremento $dr$ risulta tangente alla traiettoria di $P$ in modo eguale allo spostamento infinitesimo $ds$, dove $u_T$ \`e il versore della tangente alla curva.
+	Si pensa al moto come una successione di spostamenti rettilinei infinitesimi con direzione variabile.
+	La direzione istantanea del moto coincide con quella della tangente alla traiettoria nel punto occupato all'istante considerato:
+	$$v=\dfrac{ds}{dt}u_T=vu_T$$
+	La velocit\`a vettoriale $v$ individua in ogni istante con la sua direzione e verso la direzione e il verso del moto e con il suo modulo $\frac{ds}{dt}$ la velocit\`a istantanea con cui \`e percorsa la traiettoria.
+
+		\subsubsection{Invarianza}
+		Si nota come la traiettoria del moto e la velocit\`a $vu_T$ sono caratteristiche intrinseche che non dipendono dalla scelta del sistema di riferimento.
+		Spostando l'origine e ruotando gli assi la curva, la direzione, il verso e il modulo della velocit\`a restano gli stessi.
+		Si parla pertanto di invarianza delle relazioni vettoriali rispetto alla scelta del sistema di riferimento.
+
+		\subsubsection{Calcolo delle componenti della velocit\`a}
+
+			\paragraph{Componenti cartesiane}
+			Essendo $r=xu_x+yu_y$,
+			\begin{align*}
+				v &=\dfrac{dr}{dt}=\\
+					&=\dfrac{dx}{dt}u_x+\dfrac{dy}{dt}u_y=\\
+					&=v_xu_x + v_y+u_y
+			\end{align*}
+			La velocit\`a del punto $P$ ha componenti cartesiani $v_x$ e $v_y$ dei due moti rettilinei descritti dai punti proiezione di $P$ sugli assi cartesiani.
+			Pertanto
+			$$v=\sqrt{v^2_x+v_y^2}$$
+			Inoltre detto $\phi$ l'angolo tra il vettore $v$ e l'asse $x$,
+			$$\tan\phi = \dfrac{v_y}{v_x}$$
+
+			\paragraph{Componenti polari}
+			Introducendo $u_r$ e $u_\theta$, il versore della direzione di $r$ e il versore ortogonale alla stessa, si nota come questi cambiano direzione durante il moto.
+			Il raggio vettore $r$ pu\`o essere espresso come $ru_r$, pertanto:
+			\begin{align*}
+				v&=\dfrac{dr}{dt}=\\
+				 &=\dfrac{dr}{dt}u_r+r\dfrac{du_r}{dt}\Rightarrow\\
+				v&=\dfrac{dr}{dt}u_r+r\dfrac{d\theta}{dt}u_\theta=\\
+				 &=v_r+v_\theta\\
+			\end{align*}
+			La velocit\`a, sempre tangente alla traiettoria si scompone in due componenti: la velocit\`a radiale $v_r$ diretta lungo $r$ e di modulo $\frac{dr}{dt}$ e la velocit\`a trasversa $v_\theta$ ortogonale a $r$ e di modulo $r\frac{d\theta}{dt}$.
+			$v_r$ dipende dalle variazioni del modulo del raggio vettore $v_\theta$, collegata alle variazioni di direzione dello stesso.
+			Il modulo della velocit\`a \`e pertanto, per queste componenti:
+			$$v=\dfrac{ds}{dt}=\sqrt{\biggl(\dfrac{dr}{dt}\biggr)^2+r^2\biggl(\dfrac{d\theta}{dt}\biggr)^2}$$
+
+		\subsubsection{Determinare la posizione nota la velocit\`a}
+		Essento $v=\frac{dr}{dt}$, per ricavare la posizione da essa si integra:
+		$$r(t)=r(t_0)+\int_{t_0}^tv(t)dt$$
+		L'integrazione esplicita pu\`o essere fatta ricorrendo alle componenti, applicando
+		$$x(t)=x_0+\int_{t_0}^tv(t)dt$$
+		Ai moti rettilinei componenti.
+
+	\subsection{Accelerazione nel moto piano}
+	L'accelerazione del moto piano deve esprimere le variazioni della velocit\`a come modulo che direzione.
+
+		\subsubsection{Direzione}
+		L'accelerazione non \`e parallela alla velocit\`a ed \`e diretta verso la concavit\`a della curva che rappresenta la traiettoria.
+
+		\subsubsection{Definizione}
+		L'accelerazione si definisce come derivata della velocit\`a rispetto al tempo:
+		$$a=\dfrac{dv}{dt}=\dfrac{d^2r}{dt^2}$$
+		Pertanto considerando $v=\frac{ds}{dt}u_T=vu_T$ e la derivata di un vettore:
+		\begin{align*}
+			a&=\dfrac{d}{dt}(vu_T)=\\
+			 &=\dfrac{dv}{dt}u_T+v\dfrac{du_T}{dt}=\\
+			 &=\dfrac{dv}{dt}u_T+v\dfrac{d\phi}{dt}u_N
+		\end{align*}
+		La prima componente parallela alla velocit\`a esprime la variazione del modulo della velocit\`a, mentre il secondo, dipendente dalla variazione di direzione della velocit\`a \`e ortogonale ad essa: $u_N$ \`e un vettore ortogonale a $u_T$ diretto verso la concavit\`a della traiettoria.
+		$\frac{d\phi}{dt}$ determina quanto rapidamente cambia la direzione di $u_T$ e di $u_N$.
+
+			\paragraph{Componente normale}
+			Per esprimere la componente normale, si nota come al limite per $\Delta t\rightarrow 0$ le rette normali alla traiettoria in due punti molto vicini si incontrano in $C$ che coincide con il centro della circonferenza tangente alla traiettoria in $P$, o circonferenza osculatrice.
+			Questo punto si chiama centro di curvatura della traiettoria nel punto $P$.
+			L'arco di traiettoria $ds$ \`e pari a $Rd\phi$ con $R=CP$ raggio di curvatura.
+			Al variare di $P$ lungo la traiettoria sia $R$ che $X$ variano.
+			Si nota:
+			$$\dfrac{d\phi}{dt}=\dfrac{d\phi}{ds}\dfrac{ds}{dt}=\dfrac{1}{R}v$$
+			Sostituendo nell'espressione dell'accelerazione trovata prima:
+			$$a=\dfrac{dv}{dt}u_T+\dfrac{v^2}{R}u_N=a_T+a_N$$
+			Il modulo pertanto vale:
+			$$a=\sqrt{a^2_T+a^2_N}=\sqrt{\biggl(\dfrac{dv}{dt}\biggr)^2+\dfrac{v^4}{R^2}}$$
+			Le due componenti si chiamano accelerazione tangenziale e accelerazione normale o centripeta.
+
+		\subsubsection{Moto curvilineo uniforme}
+		In un moto curvilineo vario entrambe le comopnenti sono diverse da zero, me il moto \`e curvilineo uniforme $a_T$ \`e nulla, mentre il moto \`e rettilineo vario \`e nulla $a_N$, nel moto rettilineo uniforme sono entrambe nulle.
+		Ovvero:
+		\begin{multicols}{2}
+			\begin{itemize}
+				\item $a_T\neq 0$ moto vario.
+				\item $a_N\neq 0$ moto curvilineo.
+			\end{itemize}
+		\end{multicols}
+
+		\subsubsection{Componenti cartesiane}
+		Le componenti cartesiane dell'accelerazione sono le accelerazioni dei due moti rettilinei proiezioni sugli assi del moto di $P$ lungo la traiettoria curva:
+		\begin{align*}
+			a&=\dfrac{dv}{dt}=\\
+			 &=\dfrac{dv_x}{dt}u_x+\dfrac{dv_y+_dt+u_y}=\\
+			 &=\dfrac{d^2x}{dt^2}u_x+\dfrac{d^2y}{dt^2}u_y=\\
+			 &=a_xu_x+a_yu_y
+		\end{align*}
+		Detto $\phi$ l'angolo che $u_T$ forma con $u_x$, si deduce che:
+		$$a_x=\dfrac{dv}{dt}\cos\phi - \dfrac{v^2}{R}\sin\phi$$
+		$$a_y=\dfrac{dv}{dt}\sin\phi - \dfrac{v^2}{R}\cos\phi$$
+		Dalle componenti tangenziale e centripeta si ricavano le cartesiano risolvendo il sistema lineare nelle incognite $\frac{dv}{dt}$ e $\frac{v^2}{R}$.
+
+		\subsubsection{Componenti polari}
+		Considerando che $u_r$ e $u_\theta$ non sono fissi e $v=\frac{dr}{dt}u_r+\frac{d\theta}{t}u_\theta$
+		\begin{align*}
+			a&=\dfrac{dv}{dt}=\\
+			 &=\dfrac{d}{t}\biggl(\dfrac{dr}{dr}u_r+r\dfrac{d\theta}{dt}u_\theta\biggr)=\\
+			 &=\dfrac{d^2r}{dt^2}u_r+\dfrac{dr}{dt}\dfrac{du_r}{dt}+\dfrac{dr}{dt}\dfrac{d\theta}{dt}u_\theta+r\dfrac{d^2\theta}{dt^2}u_\theta+r\dfrac{d\theta}{dt}\dfrac{dt_\theta}{dt}
+		\end{align*}
+		Considerando che $\frac{du_r}{dt}=\frac{d\theta}{dt}u_\theta$ e che $\frac{du_\theta}{dt}=-\frac{d\theta}{dt}u_r$ si nota che per una variazione positiva di $\theta$ $du_\theta$ \`e opposto a $u_r$  e si ha:
+		$$a=\biggl[\dfrac{d^2r}{dt^2}-r\biggl(\dfrac{d\theta}{dt}\biggr)^2\biggr]u_r+\biggl[2\dfrac{dr}{dt}\dfrac{d\theta}{dt}+r\dfrac{d^2\theta}{dt^2}\biggr]u_\theta$$
+		Da cui:
+		$$a=\biggl[\dfrac{d^2r}{dt^2}-r\biggl(\dfrac{d\theta}{dt}\biggr)^2\biggr]u_r+\biggl[\dfrac{1}{r}\dfrac{d}{dt}\biggl(r^2\dfrac{d\theta}{dt}\biggr)\biggr]u_theta$$
+		Il primo termine rappresenta l'accelerazione radiale e il secondo l'accelerazione trasversa.
+		Anche $a_r$ e $a_\theta$ si possono mettere in relazione con $a_x$ e $a_y$ o $a_T$ e $a_N$
+
+		\subsubsection{Valore della velocit\`a}
+		Nota l'accelerazione e il valore della velocit\`a all'istante $t_0$ la velocit\`a in un istante $t$ \`e data da:
+		$$v(t)=v(t_0)+\int_{t_0}^ta(t)dt$$
+
+	\subsection{Moto circolare}
+	Si dice moto circolare un moto piano la cui traiettoria \`e rappresentata da una circonferenza.
+	L'accelerazione centripeta \`e sempre diversa da zero, pertanto agisce una forza centripeta diretta verso il centro della circonferenza.
+	Nel moto circolare uniforme la velocit\`a \`e costante in modulo e l'accelerazione tangente \`e nulla per cui $a=a_N$, se invece il modulo della velocit\`a cambia nel tempo il moto circolare non \`e uniforme e $a_T$ \`e diversa da zero: la direzione dell'accelerazione non passa per il centro della circonferenza.
+	In quest'ultimo caso oltre alla forza centripeta agisce anche una forza tangenziale.
+
+		\subsubsection{Descrizione}
+		Il moto circolaer pu\`o essere descritto facendo riferimento allo spazio percorso sulla circonferenza $s(t)$ o utilizzando l'angolo $\theta(t)$ sotteso all'arco $s(t)$ con $\theta(t)=\frac{s(t)}{R}$.
+		Assumere come variabile $\theta(t)$ vuol dire porsi in un sistema di coordinate polari di centro in $O$ in cui il moto avviene con $r(t)=R$ costante.
+		La rappresentazione in coordinate cartesiane \`e legata a $\theta(x)$:
+		$$x(t)=R\cos\theta(t)$$
+		$y(t)=R\sin\theta(t)$
+
+		\subsubsection{Velocit\`a angolare}
+		Si \`e interessati alle variazioni dell'angolo nel tempo e si definisce la velocit\`a angolare come la derivata dell'angolo rispetto al tempo:
+		$$\omega=\dfrac{d\theta}{dt}=\dfrac{1}{R}\dfrac{ds}{dt}=\dfrac{v}{R}$$
+		Si nota come la velocit\`a angolare \`e proporzionale alla velocit\`a con cui \`e descritta la circonferenza.
+		Nel moto circolare la velocit\`a radiale \`e identicamente nulla in quanto il raggio vettore \`e costante in modulo e la velocit\`a trasversale coincide con la velocit\`a: da $v_\theta=r\frac{d\theta}{dt}$ si trova che $v=R\omega$.
+
+		\subsubsection{Moto circolare uniforme}
+		Nel moto circolare uniforme $v$ e $\omega$ sono costanti e le leggi orarie con riferimento alle due variabili sono:
+		$$s(t)=s_0+vt\qquad s= s_o\ per\ t=0$$
+		$$\theta(t)=\theta_0+\omega t\qquad \theta=\theta_0\ per\ t = 0$$
+		Si ricordi come il termine uniforme significa esclusivamente costanza del modulo della velocit\`a: il moto circolare uniforme \`e un moto accelerato con accelerazione costante ortogonale alla traiettoria:
+		$$a=a_N=\dfrac{v^2}{R}=\omega^2R$$
+
+			\paragraph{Periodicit\`a}
+			Si nota come si tratta di un moto periodico con periodo
+			$$T=\dfrac{2\pi R}{v}=\dfrac{2\pi}{\omega}$$
+			Corrispondente al tempo necessario per compiere un giro completo.
+
+			\paragraph{Moti proiettati sugli assi cartesiani}
+			I moti proiettati sugli assi cartesiani sono:
+			$$x=R\cos\theta=R\cos(\omega t+\theta_0)$$
+			$$y=R\sin\theta=R\sin(\omega t+\theta_0)$$
+			Ovvero due moti armonici di uguale ampiezza e fase iniziale sfasati di $\frac{\pi}{2}$ e con periodo coincidente con quello del moto circolari uniforme.
+			La velocit\`a angolare \`e uguale alla pulsazione numericamente.
+
+		\subsubsection{Moto circolare non uniforme}
+		Nel caso del moto circolare non uniforme si deve considerare l'accelerazione tangenziale $a_T=\frac{dv}{dt}$.
+
+			\paragraph{Accelerazione angolare}
+			Essendo anche $\omega$ variabile si definisce l'accelerazione angolare:
+			\begin{align*}
+				a&=\dfrac{d\omega}{dt}=\\
+				 &=\dfrac{d^2\theta}{dt^2}=\\
+				 &=\dfrac{1}{R}\dfrac{dv}{dt}=\\
+				 &=\dfrac{a_T}{R}\\
+			\end{align*}
+
+			\paragraph{Determinare la velocit\`a angoalre dall'accelerazione}
+			Nota $a(t)$ si pu\`o integrare ottenendo:
+			$$\omega(t)=\omega_0+\int_{t_0}^ta(t)dt$$
+			$$\theta(t)=\theta_0+\int_{t_0}^t\omega(t)dt$$
+
+			\paragraph{Determinare l'incremento della velocit\`a angolare in corrispondenza dell'incremento angolare}
+			Nota $a(\theta)$ si pu\`o calcolare l'incremento della velocit\`a angolare in corrispondenza all'incremento angolare $\theta-\theta_0$.
+			\begin{align*}
+				a&=\dfrac{d\omega}{dt}=\dfrac{d\omega}{d\theta}\dfrac{d\theta}{dt}=\\
+				 &=\omega\dfrac{d\omega}{d\theta}\Rightarrow\\
+				\Rightarrow&ad\theta=\omega d\omega\Rightarrow\\
+				\Rightarrow&\int_{\theta_0}^\theta a(\theta)d\theta=\dfrac{1}{2}\omega^2-\dfrac{1}{2}\omega_0^2
+			\end{align*}
+
+			\paragraph{Moto circolare uniformemente accelerato}
+			Il moto circolare uniformemente accelerato \`e un moto in cui $a$ \`e costante, o $a_T$ costante.
+			Ponendo $t_0=0$:
+			$$\omega=\omega_0+at$$
+			$$\theta=\theta_0+\omega_0t+\dfrac{1}{2}at^2$$
+			L'accelerazione centripeta vale:
+			$$a_N=\omega^2R=(\omega_0+at)^2R$$
+
+		\subsubsection{Notazione vettoriale}
+		Si ampli il concetto di velocit\`a angolare del moto circolare mostrando come si possono associare ad esso caratteristiche vettoriali.
+		Si definisce velocit\`a angolare il vettore $\omega$ con modulo $\omega=\frac{d\theta}{dt}$, direzione perpendicolare al piano in cui giace la circonferenza e verso tale che all'estremo del vettore $\omega$ il moto appaia antiorario.
+		Risulta evidente che:
+		$$v=\omega\times r$$
+		Nel caso $\omega$ sia applicata al centro della circonferenza $r=R$, ma questa equazione risulta valida se $\omega$ \`e applicata in un qualsiasi altro punto dell'asse di rotazione, ovvero la retta ortigonale al piano del moto e passante per il centro della circonferenza.
+		Dato $\omega$ si individua l'asse di rotazione e il piano del moto circolare, il verso di percorrenza della circonferenza e come varia l'angolo nel tempo.
+		Da $\omega$ per derivazione rispetto al tempo si ottiene il vettore accelerazione angolare $a$, parallelo a $\omega$ e verso determinato dalla variazione del modulo di $\omega$ e modulo $a=\frac{d\omega}{dt}$.
+
+			\paragraph{Accelerazione del moto circolare}
+			Tramite $A$ e $\omega$ si esprime l'accelerazione del moto circolare:
+			\begin{align*}
+				a&=\dfrac{dv}{dt}=\\
+				 &=\dfrac{d}{dt}(\omega\times r)=\\
+				 &=\dfrac{d\omega}{dt}\times r + \omega\times\dfrac{dr}{dt}\Rightarrow\\
+				\Rightarrow&a=a\times r+\omega\times v\\
+			\end{align*}
+			Si nota come il pirmo termine $a\times r$ \`e l'accelerazione tangenziale $a_T$ di modulo $aR$, mentre il secondo $\omega\times v$ \`e l'accelerazione centripeta $a_N$ di modulo $\omega^2R$.
+			Nel moto circolare uniforme $\omega$ \`e un vettore costante anche un modulo, $a$ \`e nulla e $a=a_N=\omega\times v$.
+
+			\paragraph{Propriet\`a di $r$}
+			Il vettore $r$ applicato in $O$ ha modulo costante e descrive un moto rotatorio attorno all'asse di rotazione, ovvero alla direzione di $\omega$ formando un angolo $\phi$ costante con l'asse stesso.
+			La sua derivata $\frac{dr}{dt}$ si pu\`o scrivere $\omega\times r$.
+			Anche il vettroe $v$ descrive una rotazione intorno a $\omega$ con cui forma l'angolo $\phi=\frac{\pi}{2}$ e la sua derivata $\frac{dv}{dt}$ si pu\`o scrivere $\omega\times v$.
+			Al moto di rotazione di un asse rispetto ad un altro asse fisso con cui forma un angolo costante e ha un punto in comune si d\`a il nome di moto di precessione.
+			Dato un vettore di modulo costante $A$ che descrive un moto di precessione con velocit\`a angolare $\omega$, la sua derivata temporale pu\`o essere sempre scritta:
+			$$\dfrac{dA}{dt}=\omega\times A$$
+			Che risulta ortogonale a $A$.
+			Inoltre in modulo
+			$$dA=A\sin\phi d\theta$$
+			$$\dfrac{dA}{dt}=A\sin\phi\dfrac{d\theta}{dt}=\omega A\sin\phi=|\omega\times A|$$
+
+	\subsection{Moto parabolico dei corpi}
+	Si analizza il moto nel vuoto di un punto $P$ lanciato dall'origine $O$ con velocit\`a iniziale $v_0$ formante un angolo $\alpha$ con l'asse delle ascisse.
+	Si vuole calcolare la traiettoria, la massima altezza raggiunta e la posizione $G$ in cui il punto ricade su $x$ o la gittata $OG$.
+
+		\subsubsection{Caratterizzazione}
+		Il moto \`e caratterizzato da un'accelerazione costante $a=g=-gu_x$ e le condizioni inziali sono $r=0$ e $v=v_0$ al tempo $t=0$.
+		Si nota come
+		$$v(t)=v_0+\int_{t_0}^ta(t)dt=v_0-gtu_x$$
+
+		\subsubsection{Velocit\`a}
+		La velocit\`a si trova nel piano individuato dai vettori costanti $v_\theta$ e $g$, il piano $x,y$.
+		Essendo $v_\theta=v_0\cos t au_x+v_\theta\sin au_y$:
+		$$v(t)=v_\theta\cos au_y+(v_\theta\sin a-gt)u_x$$
+
+		\subsubsection{Leggi orarie dei moti proiettati}
+		La velocit\`a dei moti proiettati sugli assi sono $v_y=v_o\cos\alpha$ e $v_x=v_0\sin\alpha-gt$.
+		Pertanto le leggi orarie dei moti proiettati sugli assi sono:
+		$$x=v_0\cos t\alpha t$$
+		$$y=v_0\sin\alpha t-\dfrac{1}{2}gt^2$$
+		Se sull'asse $x$ il moto \`e uniforme sull'asse $y$ \`e uniformemente accelerato.
+
+		\subsubsection{Traiettoria}
+		La traiettoria viene ricavata eliminando il tempo tra $x(t)$ e $y(t)$ e ottenendo la funzione:
+		$$y(t):t=\dfrac{x}{v_0}\cos\alpha$$
+		$$y(x)=x\tan\alpha-\dfrac{g}{2v_0^2\cos^2\alpha}x^2$$
+		Ovvero l'equazione di una parabola.
+
+		\subsubsection{Direzione del moto}
+		La direzione del moto in funzione del tempo o della coordinata $x$ pu\`o essere caratterizzata dall'angolo $\phi$ che il vettore velocit\`a forma con l'asse orizzontale:
+		\begin{align*}
+			\tan\phi&=\dfrac{v_y}{v_x}=\\
+			     &=\tan\alpha-\dfrac{g}{v_0\cos\alpha}t=\\
+					 &=\tan\alpha-\dfrac{g}{v_0^2\cos^2\alpha}x
+		\end{align*}
+		Per calcolare la gittata $OG$ si impne $y(x)=0$ e si ottengono due soluzione $x=0$ e:
+		\begin{align*}
+			x_G&=\dfrac{2v_0^2\cos^2\alpha\tan\alpha}{g}=\\
+			   &=\dfrac{2v_0^2\cos\alpha\sin\alpha}{g}=\\
+				 &=2X_M
+		\end{align*}
+		Dove $X_M=v_0^2\frac{\cos\alpha\sin\alpha}{g}$ \`e la coordinata dal punto di mezzo del segmento $OG$ e ascissa del punto di massima altezza.
+
+		\subsubsection{Altezza massima}
+		L'altezza massima raggiunta \`e pertanto:
+		$$y(X_M)=Y_M=\dfrac{v_0^2\sin^2\alpha}{2g}$$
+		L'altezza massima si pu\`o ottenere annullando $\frac{dy}{dx}$, ovvero imponendo
+		$$\tan\alpha-(\dfrac{g}{v_0^2}\cos^2\alpha)x=0$$
+		Si ricava da questo l'ascissa del massimo $X_M$ e si calcola $y(X_M)$.
+		Un altro modo \`e sfruttare il fatto che nel punto di massima altezza la velocit\`a \`e orizzontale, pertanto $u_y=0$< ovvero $t=t_M=v_0\sin\frac{\alpha}{g}$, sostituendo $x(t)$ e $y(t)$ si trovano $X_M$ e $Y_M$.
+
+		\subsubsection{Angolo di lancio per la gittata massima}
+		L'angolo di lancio per cui si ha la gittata massima si ottiene con la condizione $\frac{dx_G}{d\alpha}=0$< ovvero $\frac{2v_0^2}{g}(-\sin^2\alpha+\cos^2\alpha)=0$ e risulta $\alpha=45\si{\degree}$
+
+		\subsubsection{Tempo totale di volo}
+		Il tempo totale di volo $t_G$ \`e pari al tempo impiegato a percorere $OG$ con velocit\`a costante $v_x=v_0\cos\alpha$:
+		$$t_G=2\dfrac{X_M}{v_0}\cos\alpha=2v_0\sin\dfrac{\alpha}{g}=2t_M$$
+		Si nota come $t_G$ coincide con il tempo necessario per salire a $Y_M$ e tornare al suolo.
+		Si nota come nella posizione $G$ la velocit\`a \`e la stessa in modulo che alla partenza ma simmetricamente rispetto a $x$.
+		$$u_x(t_G)=v_0\cos\alpha$$
+		$$u_y(t_G)=-v_o\sin\alpha$$
+		$$\tan\phi=-\tan\alpha$$
